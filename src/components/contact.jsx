@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <Nav selected="About" />
+        <Nav selected="Contact" />
         <div className="about-banner">
           <div className="about-description-container">
             <h1 className="homes-banner-description">Woodlake Construction</h1>

@@ -1,5 +1,5 @@
 .contact-banner {
-  background: lightyellow;
+  background: #636363;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,7 +46,7 @@
 
 @media (max-width: 768px) {
   .contact-banner {
-    background: lightyellow;
+    background: #636363;
     height: 20em;
   }
 

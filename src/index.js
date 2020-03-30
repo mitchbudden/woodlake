@@ -17,9 +17,9 @@ library.add(faPhone, faEnvelope, faCamera);
 ReactDOM.render(
   <Provider>
     <Router path="/" history={browserHistory}>
-      <Route path="/homes" component={Home} />
+      <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
-      <Route path="/" component={About} />
+      <Route path="/" component={Home} />
     </Router>
   </Provider>,
   document.getElementById("root")
