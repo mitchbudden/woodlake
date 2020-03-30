@@ -1,0 +1,89 @@
+.contact-banner {
+  background: lightyellow;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 30em;
+  width: 100%;
+}
+
+.contact-description-container {
+  padding: 7% 0% 0% 30%;
+}
+
+.contact-banner-description {
+  font-family: "Cinzel", serif;
+  line-height: 75px;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  width: 500px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  font-family: "Biryani", sans-serif;
+  line-height: 50px;
+  padding: 10% 10% 0% 10%;
+}
+
+.cert-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cert-image {
+  margin: 4%;
+  width: 15em;
+  height: 8em;
+}
+
+@media (max-width: 768px) {
+  .contact-banner {
+    background: lightyellow;
+    height: 20em;
+  }
+
+  .contact-description-container {
+    padding: 10% 0% 0% 15%;
+  }
+
+  .contact-banner-description {
+    font-size: 32px;
+  }
+
+  .cert-group {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .cert-image {
+    margin: 4% 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-description-container {
+    padding: 10% 0% 0% -10%;
+  }
+
+  .contact-banner-description {
+    text-align: left;
+  }
+
+  .contact-picture-group {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .display-image {
+    height: 15em !important;
+  }
+}

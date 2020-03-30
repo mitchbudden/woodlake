@@ -1,0 +1,132 @@
+.about-banner {
+  background: lightyellow;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 30em;
+  width: 100%;
+}
+
+.about-description-container {
+  padding: 7% 0% 0% 30%;
+}
+
+.about-banner-description {
+  font-family: "Cinzel", serif;
+  line-height: 75px;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  width: 500px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+  padding: 1%;
+}
+
+.head-photo {
+  width: 18em;
+  height: 25em;
+}
+
+.about-description {
+  color: black;
+  font-family: "Biryani", sans-serif;
+  margin: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.about-description-bold {
+  color: black;
+  font-family: "Biryani", sans-serif;
+  margin: 1%;
+  background-color: #9ecae1;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.services-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-description {
+  color: black;
+  font-family: "Biryani", sans-serif;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+  padding: 4%;
+}
+
+.services-bold {
+  text-decoration: underline;
+}
+
+.services-group {
+  margin: 1%;
+  padding: 1%;
+  border: 5px solid #9ecae1;
+  background-color: #9ecae1;
+  width: 33%;
+}
+
+.services-group:hover {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .services-flex {
+    flex-direction: column;
+  }
+
+  .services-group {
+    width: 100%;
+    background-color: white;
+  }
+
+  .about-banner {
+    background: lightyellow;
+    height: 20em;
+  }
+
+  .about-description-container {
+    padding: 10% 0% 0% 15%;
+  }
+
+  .about-banner-description {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-description-container {
+    padding: 10% 0% 0% -10%;
+  }
+
+  .about-banner-description {
+    text-align: left;
+  }
+
+  .about-description {
+    font-size: 18px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .services-description {
+    font-size: 18px;
+  }
+}
