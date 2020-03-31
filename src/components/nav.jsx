@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import "../styles/nav.css";
+import W from "../images/W.png";
 
 class Nav extends Component {
   render() {
     return (
       <div className="nav-outer">
+        <img src={W} alt="Woodlake" className="nav-logo"></img>
         <div className="nav-group">
           <a
             href="/about"

@@ -1,0 +1,63 @@
+.banner {
+  background: linear-gradient(rgba(1, 13, 22, 0.6), rgba(1, 13, 22, 0.6)),
+    url("../images/backdrop.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 30em;
+  width: 100%;
+}
+
+.banner-description-container {
+  padding: 7% 0% 0% 30%;
+}
+
+.banner-description {
+  font-family: "Martel", serif;
+  line-height: 75px;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  width: 500px;
+  text-shadow: 2px 2px black;
+}
+
+.banner-subhead {
+  font-family: "Martel", serif;
+  line-height: 75px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  width: 500px;
+  text-shadow: 2px 2px black;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 20em;
+  }
+
+  .banner-description-container {
+    padding: 10% 0% 0% 15%;
+  }
+
+  .banner-description {
+    font-size: 28px;
+  }
+
+  .banner-subhead {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-description-container {
+    padding: 10% 0% 0% -10%;
+  }
+
+  .banner-description {
+    text-align: left;
+  }
+}

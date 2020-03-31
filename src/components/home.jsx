@@ -2,15 +2,17 @@ import React, { Component } from "react";
 import Nav from "./nav";
 import Footer from "./footer";
 import "../styles/home.css";
+import "../styles/global.css";
 
 class Home extends Component {
   render() {
     return (
       <div>
         <Nav selected="Home" />
-        <div className="about-banner">
-          <div className="about-description-container">
-            <h1 className="homes-banner-description">Woodlake Construction</h1>
+        <div className="banner">
+          <div className="banner-description-container">
+            <h1 className="banner-description">Woodlake Construction</h1>
+            <h2 className="banner-subhead">Troy, Michigan</h2>
           </div>
           <Footer />
         </div>

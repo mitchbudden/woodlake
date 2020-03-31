@@ -13,7 +13,7 @@
 }
 
 .contact-banner-description {
-  font-family: "Cinzel", serif;
+  font-family: "Roboto", sans-serif;
   line-height: 75px;
   text-align: center;
   font-size: 48px;
@@ -27,7 +27,7 @@
   text-align: center;
   font-size: 28px;
   color: black;
-  font-family: "Biryani", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 50px;
   padding: 10% 10% 0% 10%;
 }
