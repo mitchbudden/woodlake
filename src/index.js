@@ -9,10 +9,11 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faPhone,
   faEnvelope,
-  faCamera
+  faCamera,
+  faStreetView
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faPhone, faEnvelope, faCamera);
+library.add(faPhone, faEnvelope, faCamera, faStreetView);
 
 ReactDOM.render(
   <Provider>

@@ -33,6 +33,26 @@
   text-shadow: 2px 2px black;
 }
 
+.info-text {
+  font-family: "Martel", serif;
+  text-align: center;
+  font-size: 30px;
+  padding: 5%;
+  margin: 3%;
+  line-height: 44px;
+  color: black;
+}
+
+.yellow-background {
+  border-bottom: 1px solid #e6550d;
+  border-top: 1px solid #e6550d;
+}
+
+.mock-icon {
+  font-size: 28px;
+  font-weight: 700;
+}
+
 @media (max-width: 768px) {
   .banner {
     height: 20em;

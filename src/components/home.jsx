@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Nav from "./nav";
 import Footer from "./footer";
-import "../styles/home.css";
 import "../styles/global.css";
 
 class Home extends Component {
@@ -14,8 +13,8 @@ class Home extends Component {
             <h1 className="banner-description">Woodlake Construction</h1>
             <h2 className="banner-subhead">Troy, Michigan</h2>
           </div>
-          <Footer />
         </div>
+        <Footer />
       </div>
     );
   }
