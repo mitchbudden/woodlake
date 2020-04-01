@@ -36,7 +36,7 @@
 .info-text {
   font-family: "Martel", serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   padding: 5%;
   margin: 3%;
   line-height: 44px;
@@ -69,6 +69,10 @@
   .banner-subhead {
     font-size: 20px;
     text-align: left;
+  }
+
+  .info-text {
+    font-size: 22px;
   }
 }
 

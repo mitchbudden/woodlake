@@ -8,12 +8,15 @@ class About extends Component {
     return (
       <div>
         <Nav selected="About" />
-        <div className="banner">
-          <div className="banner-description-container">
-            <h1 className="banner-description">Woodlake Construction</h1>
-            <h2 className="banner-subhead">Troy, Michigan</h2>
-          </div>
-        </div>
+        <h1 className="info-text yellow-background">
+          The Woodlake Construction was founded in 2000 and has been building in
+          South East Michigan for businesses, small and large, as well as
+          individuals since. Doug Budden, founder of Woodlake Construction, and
+          the rest of the Woodlake team operate out of Troy Michigan in the
+          address listed below. If you think Woodlake Construction can help with
+          you or your business, please get in touch using one of the methods at
+          the bottom of the page.
+        </h1>
         <Footer />
       </div>
     );

@@ -11,7 +11,7 @@ class Contact extends Component {
         <h1 className="info-text yellow-background">
           The Woodlake Construction team is here to help with your construciton
           management needs. Please use one of the methods below to get in
-          contact and we will get back to you as soon as possible
+          contact and we will get back to you as soon as possible.
         </h1>
         <Footer />
       </div>
