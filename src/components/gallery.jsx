@@ -3,11 +3,11 @@ import Nav from "./nav";
 import Footer from "./footer";
 import "../styles/global.css";
 
-class Contact extends Component {
+class Gallery extends Component {
   render() {
     return (
       <div>
-        <Nav selected="Contact" />
+        <Nav selected="Gallery" />
         <h1 className="last-item">
           The Woodlake Construction team is here to help with your construciton
           management needs. Please use one of the methods below to get in
@@ -19,4 +19,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Gallery;

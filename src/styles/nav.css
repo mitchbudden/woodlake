@@ -34,11 +34,11 @@
   line-height: 5em;
   font-size: 20px;
   width: 25%;
-  font-weight: 400;
+  font-weight: 300;
   margin: 1%;
   color: black;
   text-decoration: none;
-  font-family: "Martel", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .selected-nav-item {
@@ -48,12 +48,12 @@
   font-size: 22px;
   line-height: 5em;
   width: 25%;
-  font-weight: 400;
+  font-weight: 600;
   margin: 1%;
   color: black;
   background-color: #feb24c;
   text-decoration: none;
-  font-family: "Martel", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .nav-item:hover {

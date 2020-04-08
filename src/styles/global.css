@@ -1,5 +1,5 @@
 .banner {
-  background: linear-gradient(rgba(1, 13, 22, 0.6), rgba(1, 13, 22, 0.6)),
+  background: linear-gradient(rgba(1, 13, 22, 0.75), rgba(1, 13, 22, 0.75)),
     url("../images/backdrop.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,7 +15,8 @@
 }
 
 .banner-description {
-  font-family: "Martel", serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   line-height: 75px;
   text-align: center;
   font-size: 54px;
@@ -25,7 +26,8 @@
 }
 
 .banner-subhead {
-  font-family: "Martel", serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   line-height: 75px;
   text-align: center;
   font-size: 30px;
@@ -34,24 +36,58 @@
   text-shadow: 4px 4px black;
 }
 
-.info-text {
-  font-family: "Martel", serif;
+.info-header {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   text-align: center;
-  font-size: 28px;
-  padding: 5%;
+  font-size: 32px;
+}
+
+.info-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 24px;
+}
+
+.info-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3%;
   margin: 3%;
   line-height: 44px;
   color: black;
+  border-bottom: 1px solid #e6550d;
 }
 
-.yellow-background {
-  border-bottom: 1px solid #e6550d;
-  border-top: 1px solid #e6550d;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.info-image {
+  height: 500px !important;
+  width: 500px !important;
+  margin: 10px;
 }
 
 .mock-icon {
   font-size: 28px;
   font-weight: 700;
+}
+
+.last-item {
+  line-height: 44px;
+  color: black;
+  padding: 3% 15%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 24px;
+  border-top: 1px solid #e6550d;
+  border-bottom: 1px solid #e6550d;
 }
 
 @media (max-width: 768px) {
