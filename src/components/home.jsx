@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Nav from "./nav";
 import Footer from "./footer";
 import "../styles/global.css";
-import kitchen from "../images/kitchen.jpg";
-import kitchenTwo from "../images/kitchenTwo.jpg";
-import outdoors from "../images/outdoors.jpg";
-import stairs from "../images/stairs.jpg";
+import kitchen from "../images/home/kitchen.jpg";
+import kitchenTwo from "../images/home/kitchenTwo.jpg";
+import outdoors from "../images/home/outdoors.jpg";
+import stairs from "../images/home/stairs.jpg";
 
 class Home extends Component {
   render() {
@@ -112,22 +112,17 @@ class Home extends Component {
               <li>Wallcovering</li>
               <li>Flooring</li>
             </ul>
-            <h1 className="info-text">
-              Woodlake welcomes the opportunity to impress you on your next
-              construction project!
-            </h1>
           </div>
         </div>
-        <div className="info-flex">
-          <div className="text-container">
-            <h1 className="info-header">Mission Statement</h1>
-            <h1 className="info-text squeezed-text">
-              We will strive to continuously improve our service and dedication
-              to the construction industry and to always seek new ways to exceed
-              the expectations of our customers.
-            </h1>
-          </div>
+        <div className="last-item">
+          <h1 className="info-header">Mission Statement</h1>
+          <h1 className="info-text">
+            We will strive to continuously improve our service and dedication to
+            the construction industry and to always seek new ways to exceed the
+            expectations of our customers.
+          </h1>
         </div>
+
         <Footer />
       </div>
     );

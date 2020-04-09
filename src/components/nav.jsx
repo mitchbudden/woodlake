@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/nav.css";
-import W from "../images/W.png";
+import W from "../images/home/W.png";
 
 class Nav extends Component {
   render() {
