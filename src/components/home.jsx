@@ -14,7 +14,7 @@ class Home extends Component {
         <Nav selected="Home" />
         <div className="banner">
           <div className="banner-description-container">
-            <h1 className="banner-description">Woodlake Construction, LLC</h1>
+            <h1 className="banner-description">Woodlake Construction</h1>
             <h2 className="banner-subhead">Troy, Michigan</h2>
           </div>
         </div>
@@ -33,7 +33,7 @@ class Home extends Component {
             </h1>
           </div>
           <img
-            src={kitchen}
+            src={kitchenTwo}
             alt="Woodlake Construction"
             className="info-image"
           ></img>
@@ -90,7 +90,7 @@ class Home extends Component {
         </div>
         <div className="info-flex">
           <img
-            src={kitchenTwo}
+            src={kitchen}
             alt="Woodlake Construction"
             className="info-image"
           ></img>

@@ -87,11 +87,11 @@
   color: black;
   padding: 3% 15%;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   text-align: left;
   font-size: 24px;
-  border-top: 1px solid #e6550d;
-  border-bottom: 1px solid #e6550d;
+  background-color: #ffeda0;
+  text-align: center;
 }
 
 .gallery-flex {
@@ -124,7 +124,7 @@
   }
 
   .banner-description-container {
-    padding: 10% 0% 0% 15%;
+    padding: 5% 0% 0% 5%;
   }
 
   .banner-description {
@@ -139,13 +139,39 @@
   .info-text {
     font-size: 22px;
   }
+
+  .info-flex {
+    flex-direction: column;
+    height: 70em;
+    margin: 0%;
+    padding: 5%;
+  }
+
+  .info-image {
+    width: 90%;
+    height: 30%;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+
+  .gallery-flex {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .gallery-image {
+    width: 25em;
+    height: 17.5em;
+  }
+
+  .gallery-title {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 480px) {
-  .banner-description-container {
-    padding: 10% 0% 0% -10%;
-  }
-
   .banner-description {
     text-align: left;
   }
