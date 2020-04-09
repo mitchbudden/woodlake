@@ -55,11 +55,11 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 3%;
-  margin: 3%;
+  margin: 3% 3% 0% 3%;
   line-height: 44px;
   height: 50em;
   color: black;
-  border-bottom: 1px solid #e6550d;
+  border-bottom: 1px solid #feb24c;
 }
 
 .text-container {
