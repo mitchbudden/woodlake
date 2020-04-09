@@ -74,6 +74,7 @@
   height: 80%;
   width: 40%;
   margin: 10px;
+  border: 1px solid black;
 }
 
 .mock-icon {
@@ -91,6 +92,30 @@
   font-size: 24px;
   border-top: 1px solid #e6550d;
   border-bottom: 1px solid #e6550d;
+}
+
+.gallery-flex {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: 15px;
+  border-bottom: 1px solid #e6550d;
+}
+
+.gallery-image {
+  width: 30em;
+  height: 20em;
+  border: 1px solid black;
+  margin: 1em;
+}
+
+.gallery-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
