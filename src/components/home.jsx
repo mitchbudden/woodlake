@@ -64,7 +64,7 @@ class Home extends Component {
             </h1>
           </div>
         </div>
-        <div className="info-flex">
+        <div className="extended-flex">
           <div className="text-container">
             <h1 className="info-header">Experience & Trust</h1>
             <h1 className="info-text">
@@ -72,20 +72,32 @@ class Home extends Component {
               financing, child care, and consumer packaged goods industries:
             </h1>
             <ul className="info-text">
-              <li>Coca Cola</li>
+              <li>Milliken Millwork</li>
+              <li>Continental Canteen</li>
+              <li>Metelsa</li>
+              <li>Detroit Auto Trading</li>
+              <li>VMLY&R</li>
+              <li>Toray</li>
+              <li>Huawei</li>
+              <li>Dr. Ellen reconstructive surgery</li>
+              <li>Team Rehab</li>
+              <li>Childtime Child Care</li>
+              <li>Rainbow Child Care</li>
               <li>PNC Bank</li>
+              <li>Chase Bank</li>
               <li>Independent Bank</li>
+              <li>David Pressely School of Cosmetology</li>
+              <li>Ruth Ellis</li>
+              <li>Boll Foundation</li>
               <li>Colliers International</li>
-              <li>Finsilver/Friedman Management</li>
-              <li>Home Properties</li>
-              <li>Green Path Debt Solutions</li>
-              <li>Rainbow Child Development Centers</li>
+              <li>CBRE</li>
+              <li>MTB Associates</li>
             </ul>
           </div>
           <img
             src={stairs}
             alt="Woodlake Construction"
-            className="info-image"
+            className="extended-image"
           ></img>
         </div>
         <div className="info-flex">
