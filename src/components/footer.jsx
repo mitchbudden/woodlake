@@ -23,7 +23,7 @@ class Footer extends Component {
         <div className="contact-container">
           <FontAwesomeIcon size="2x" />
           <h1 className="contact-item">
-            <span className="mock-icon">f</span> Woodlake Contruction
+            <span className="mock-icon">f</span> Woodlake Construction
           </h1>
         </div>
       </div>
